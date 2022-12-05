@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: url("https://cdn.mos.cms.futurecdn.net/KMetFQX5UXdhydvbBzUxDA-1200-80.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+.forgot h1 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 31px 455px;
+  border-radius: 22px;
+  border: 0.1px solid #0d0d0c;
+  background-color: white;
+  color: rgb(30, 27, 27);
+  box-shadow: 0 4px 8px 0 #f47a0d, 0 6px 20px 0 rgba(240, 131, 6, 0.966);
+}
+
+.forgot h5 {
+  font-size: 13px;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: underline;
+}
+
+.forgot input {
+  font-size: 15px;
+  width: 32%;
+  padding: 8px 13px;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: rgb(21, 19, 19);
+  cursor: pointer;
+  margin: -6px 33%;
+}
+
+.forgot button {
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 10px 10px;
+  margin: 12px 500px;
+  width: 22%;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 #f47a0d, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.forgot button:hover {
+  font-weight: 900;
+  background-color: #f47a0d;
+  box-shadow: 0 4px 8px 0 #0a2299, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

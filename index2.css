@@ -1,0 +1,13 @@
+.text-center {
+  text-align: center;
+}
+.My-02 {
+  margin: 25px 0;
+  height: 190px;
+  text-decoration: solid;
+}
+
+.My-02 b {
+  color: #2874f0;
+  font-size: 19px;
+}

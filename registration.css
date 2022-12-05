@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.reg-form h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  border-radius: 25px;
+  border: 2.1px solid #2000ff;
+  background-color: #0f0f14;
+  box-shadow: 0 4px 8px 0 #2000ff, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+  background: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80")
+    no-repeat;
+  background-size: cover;
+}
+.reg-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -40%);
+  position: absolute;
+  color: white;
+}
+.reg-form h5 {
+  font-size: 12px;
+  margin: 8px 80px;
+}
+
+.reg-form input {
+  font-size: 15px;
+  width: 100%;
+  padding: 8px 13px;
+  border: 1px solid #03aaec;
+  border-radius: 12px;
+  color: rgb(21, 19, 19);
+  cursor: pointer;
+}
+.reg-form input:hover {
+  font-weight: 900;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.reg-form button {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 10px 10px;
+  margin: 12px 132px;
+  width: 31%;
+  border-radius: 18px;
+  border: 1px solid #2000ff;
+  color: white;
+  background-color: #0f0f14;
+  box-shadow: 0 4px 8px 0 #2000ff, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.reg-form button:hover {
+  font-weight: 900;
+  color: #3225bd;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.reg-form option {
+  font-size: 15px;
+}

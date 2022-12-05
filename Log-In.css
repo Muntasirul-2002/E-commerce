@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2327ffa4-20e9-41b6-b77c-462d26f7bfea/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.login-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+.login-form h1 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  border-radius: 25px;
+  border: 0.1px solid #0dadec;
+  background-color: #0f0f14;
+  box-shadow: 0 4px 8px 0 #0dadec, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+ul li {
+  display: flex;
+}
+ul li a {
+  color: white;
+}
+ul li a:hover {
+  color: #03aaec;
+}
+
+.login-form input {
+  font-size: 15px;
+  width: 100%;
+  padding: 8px 13px;
+  border: 1px solid #03aaec;
+  border-radius: 12px;
+  color: rgb(21, 19, 19);
+  cursor: pointer;
+}
+
+.login-form button {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 10px 10px;
+  margin: 12px 132px;
+  width: 31%;
+  border-radius: 18px;
+  border: 1px solid #03aaec;
+  color: white;
+  background-color: #0f0f14;
+  box-shadow: 0 4px 8px 0 #0dadec, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  font-weight: 900;
+  color: #0dadec;
+}

@@ -1,0 +1,139 @@
+/* import text-design from google */
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*for header set */
+header {
+  background-color: var(--main-bg-color);
+}
+
+nav {
+  display: flex;
+  /* align-items: center; */
+}
+
+/* flipkart-logo design */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  padding: 0 20px;
+  box-shadow: 0 4px 8px 0 #140c4f, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* navigation bar design */
+nav ul {
+  display: flex;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  /* for dot bar remove from home about contact nav bar*/
+  list-style: none;
+  padding: 0 18px;
+}
+
+nav ul li a {
+  /* for remove underline & color it from home about contact */
+  color: white;
+  text-decoration: none;
+  font-family: "Playfair Display italic", serif;
+}
+
+nav ul li a:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+/* search bar design */
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 295px;
+  border-radius: 3px;
+  margin: 0 7px 0 12px;
+  padding: 0 7px;
+}
+
+/* search button design */
+.btn {
+  background-color: var(--main-bg-color);
+  padding: 0 5px 0 4px;
+  border: 2px solid whitesmoke;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(15, 9, 75);
+}
+
+/* first container box create where we will uplode shopping metirals and onther infoormations abouth that */
+.container {
+  min-height: calc(100vh - 35px - 23vh);
+}
+
+.My-02 {
+  height: 190px;
+  text-decoration: solid;
+}
+
+.card {
+  max-width: 94vw;
+  margin: auto;
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+}
+.card-item img {
+  height: 143px;
+  width: 130px;
+  cursor: pointer;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #2874f0;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.lines p2 {
+  color: #2874f0;
+  cursor: pointer;
+}
+.My-02 {
+  color: #2874f0;
+}
+
+/* set footer and text design */
+footer {
+  background-color: var(--main-bg-color);
+  height: 13vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "BhuTuka Expanded One", cursive;
+}
